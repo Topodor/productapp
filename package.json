@@ -1,0 +1,52 @@
+{
+  "name": "ang2app",
+  "version": "0.0.0",
+  "license": " LICENSE ",
+  "scripts": {
+    "start": "webpack-dev-server --inline --colors --watch --display-error-details --display-cached  --port 3001 --hot",
+    "test": "karma start"
+  },
+  "dependencies": {
+    "@angular/common": "2.4.10",
+    "@angular/compiler": "2.4.10",
+    "@angular/core": "2.4.10",
+    "@angular/platform-browser": "2.4.10",
+    "@angular/platform-browser-dynamic": "2.4.10",
+    "@angular/router": "3.4.10",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.21",
+    "bootstrap": "^3.3.7",
+    "es6-shim": "^0.35.0",
+    "ng2-bootstrap": "^1.4.2",
+    "reflect-metadata": "0.1.10",
+    "rxjs": "5.2.0",
+    "systemjs": "^0.20.10",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "bootstrap-loader": "^2.0.0",
+    "bootstrap-sass": "^3.3.7",
+    "core-js": "^2.4.0",
+    "css-loader": "^0.27.3",
+    "jasmine-core": "^2.4.1",
+    "jquery": "^3.2.0",
+    "karma": "^1.5.0",
+    "karma-coverage": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "0.0.30",
+    "karma-webpack": "^2.0.3",
+    "node-sass": "^4.5.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "raw-loader": "^0.5.1",
+    "resolve-url-loader": "^2.0.2",
+    "sass-loader": "^6.0.3",
+    "source-map-loader": "^0.2.0",
+    "style-loader": "^0.14.1",
+    "typescript": "^2.2.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}

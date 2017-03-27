@@ -1,0 +1,7 @@
+.shop {
+    cursor: pointer;
+    outline: 1;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(0, 150, 75, 0.35);
+}
